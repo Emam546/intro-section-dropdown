@@ -1,0 +1,27 @@
+@import "../colors";
+$navbar-padding-y: rem(20);
+
+// $navbar-nav-link-padding-x:         .5rem;
+
+// $navbar-brand-font-size:            $font-size-lg;
+// Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
+$nav-link-height: rem(35);
+$navbar-brand-height: rem(35);
+// $navbar-brand-padding-y:            ($nav-link-height - $navbar-brand-height) * .5;
+$navbar-brand-margin-end: rrem(10);
+
+// $navbar-toggler-padding-y:          .25rem;
+// $navbar-toggler-padding-x:          .75rem;
+// $navbar-toggler-font-size:          $font-size-lg;
+// $navbar-toggler-border-radius:      $btn-border-radius;
+// $navbar-toggler-focus-width:        $btn-focus-width;
+// $navbar-toggler-transition:         box-shadow .15s ease-in-out;
+
+$navbar-light-color: $Medium-Gray;
+$navbar-light-hover-color: $Almost-Black;
+$navbar-light-active-color: $Almost-Black;
+// $navbar-light-disabled-color:       rgba($black, .3);
+// $navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+// $navbar-light-toggler-border-color: rgba($black, .1);
+// $navbar-light-brand-color:          $navbar-light-active-color;
+// $navbar-light-brand-hover-color:    $navbar-light-active-color;

@@ -1,0 +1,36 @@
+@use "../function" as *;
+@import "../colors";
+// $dropdown-min-width:                10rem;
+$dropdown-padding-x: rem(8);
+$dropdown-padding-y: rem(15);
+// $dropdown-spacer:                   .125rem;
+// $dropdown-font-size:                $font-size-base;
+// $dropdown-color:                    $body-color;
+// $dropdown-bg:                       $white;
+$dropdown-border-color: null;
+$dropdown-border-radius: rem(10);
+$dropdown-border-width: rem(0);
+// $dropdown-inner-border-radius:      subtract($dropdown-border-radius, $dropdown-border-width);
+// $dropdown-divider-bg:               $dropdown-border-color;
+// $dropdown-divider-margin-y:         $spacer * .5;
+// $dropdown-box-shadow:               $box-shadow;
+
+$dropdown-link-color: $Almost-Black;
+$dropdown-link-hover-color: null;
+$dropdown-link-hover-bg: null;
+
+// $dropdown-link-active-color: white;
+$dropdown-link-active-bg: white;
+
+// $dropdown-link-disabled-color:      $gray-500;
+$dropdown-link-color: $Almost-Black;
+$dropdown-link-hover-color: null;
+$dropdown-link-hover-bg: white;
+$dropdown-item-padding-y: rem(4);
+$dropdown-item-padding-x: rem(10);
+
+// $dropdown-header-color:             $gray-600;
+// $dropdown-header-padding-x:         $dropdown-item-padding-x;
+// $dropdown-header-padding-y:         $dropdown-padding-y;
+// // fusv-disable
+// $dropdown-header-padding:           $dropdown-header-padding-y $dropdown-header-padding-x;

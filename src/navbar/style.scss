@@ -1,0 +1,62 @@
+@use "../custom" as *;
+nav {
+    .navbar-brand {
+        margin-right: rem(40);
+        flex-shrink: 0;
+    }
+    .navbar-nav {
+        gap: rem(10);
+        li {
+            margin-right: rem(30);
+        }
+    }
+    .offcanvas-body {
+        > .btn {
+            padding: rem(10) rem(25);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.dropdown {
+    .dropdown-toggle {
+        display: flex;
+        gap: rem(5);
+        img {
+            width: rem(12);
+            align-self: center;
+        }
+        &::after {
+            display: none;
+        }
+        .up {
+            display: none;
+        }
+        &.show {
+            .up {
+                display: block;
+            }
+            .down {
+                display: none;
+            }
+        }
+    }
+    .dropdown-menu {
+        @include media-breakpoint-down($mobile-phase) {
+            padding-top: 0;
+        }
+        .dropdown-item {
+            display: flex;
+            align-items: center;
+            gap: rem(15);
+            img {
+                width: rem(15);
+            }
+            &:hover {
+                color: $black !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+@import "./sass/function";
+@import "./sass/componnents/dropdowns";
+@import "./sass/colors";
+@import "./sass/componnents/navbar";
+$primary: $Almost-Black;
+$mobile-phase: md;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

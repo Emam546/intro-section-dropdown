@@ -1,0 +1,43 @@
+@import "../custom";
+.landing {
+    .container{
+        padding-left: rem(20);
+        padding-right: rem(20);
+    }
+    .btn{
+        margin-top: rem(50);
+        padding: rem(10) rem(20);
+        &:hover{
+            background-color: initial;
+            color:$primary;
+        }
+    }
+    .content-container{
+        display: flex;
+        height: 100%;
+        padding-bottom: rem(35);
+        flex-direction: column;
+        justify-content: space-between;
+        gap: rem(30);
+        .logos-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: rem(15);
+        }
+    }
+    @include media-breakpoint-up(lg) {
+        .row > div {
+            padding:0 rem(45);
+        }
+    }
+    @include media-breakpoint-down($mobile-phase) {
+        .row > div {
+            padding: 0;
+        }
+        .content-container{
+            margin-top: rem(40);
+        }
+    }
+}
