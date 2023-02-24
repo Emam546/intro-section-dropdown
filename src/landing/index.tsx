@@ -20,8 +20,8 @@ export default function Landing() {
                     </div>
                     <div className="col-md-6">
                         <div className="content-container text-center text-md-start">
-                            <div>
-                                <h1 className="fw-bold display-4">
+                            <div className="pt-lg-5">
+                                <h1 className="fw-bold display-3 mt-lg-5">
                                     Make remote work
                                 </h1>
                                 <p>
